@@ -6,6 +6,7 @@ import Loader from '../component/Loader';
 import Fox from '../Models/Fox';
 import useAlert from '../hooks/useAlert';
 import Alert from '../component/Alert';
+import Footer from '../component/Footer';
 
 const Contact = () => {
   const formRef = useRef(null);
@@ -51,7 +52,7 @@ const Contact = () => {
     })
   };
   return (
-    <section className='relative flex lg:flex-row flex-col max-container'>
+    <section className='relative flex lg:flex-row flex-col max-container h-[100vh]'>
       {alert.show && <Alert {...alert}/>}
 
       <div className='flex-1 min-w-[50%] flex flex-col '>
@@ -127,6 +128,7 @@ const Contact = () => {
             </Suspense>
           </Canvas>
       </div>
+
     </section>
   )
 }

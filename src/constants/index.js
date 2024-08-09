@@ -24,7 +24,16 @@ import {
     tailwindcss,
     threads,
     typescript,
-    chash
+    chash,
+    java,
+    python,
+    c,
+    mysql,
+    microsoftsqlserver,
+    threejs,
+    upwork,
+    s,
+    b
 } from "../assets/icons";
 
 export const skills = [
@@ -89,14 +98,14 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
+        imageUrl: python,
+        name: "Python",
+        type: "Programming",
     },
     {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
+        imageUrl: c,
+        name: "C",
+        type: "Programming",
     },
     {
         imageUrl: tailwindcss,
@@ -113,15 +122,48 @@ export const skills = [
         name: "C#",
         type: "Backend",
     },
+        {   
+        imageUrl: java,
+        name: "Java",
+        type: "Backend",
+    },
+            {   
+        imageUrl: mysql,
+        name: "MySQL",
+        type: "Database",
+    },
+     {   
+        imageUrl: microsoftsqlserver,
+        name: "SQL",
+        type: "Database",
+    },
+         {   
+        imageUrl: threejs,
+        name: "3D",
+        type: "Database",
+    },
 ];
 
 export const experiences = [
     {
         title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        company_name: "Remote",
+        icon: b,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "March 2023 - Jun 2024",
+        points: [
+            "Designing, developing, and managing scalable databases to support application needs.",
+            "Collaborating with cross-functional teams to ensure seamless data integration and performance.",
+            "Optimizing database queries and ensuring efficient data retrieval and storage.",
+            "Implementing data security measures and ensuring compliance with industry standards.",
+        ],
+    },
+    {
+        title: "Next Js Developer",
+        company_name: "Scripters",
+        icon: s,
+        iconBg: "#00000",
+        date: "Jul 2024 Present",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -130,44 +172,31 @@ export const experiences = [
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "Database Designer",
+        company_name: "Upwork",
+        icon: upwork,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        date: "Part-Time",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Designing, developing, and optimizing databases using SQL, NoSQL, or other database technologies.",
+            "Ensuring data integrity, security, and availability through best practices and backup procedures.",
+            "Collaborating with developers to integrate databases with applications and optimize queries.",
+            "Writing and optimizing complex SQL queries, stored procedures, and triggers.",
         ],
     },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+    // {
+    //     title: "Full stack Developer",
+    //     company_name: "Meta",
+    //     icon: meta,
+    //     iconBg: "#a2d2ff",
+    //     date: "Jan 2023 - Present",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
 ];
 
 export const socialLinks = [
@@ -179,12 +208,12 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/maaz2022',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/maaz-nazeer-672135231/',
     }
 ];
 
@@ -192,43 +221,43 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Supplier Management System',
+        description: 'A complete Supplier Management System which has been created with the help of C#.',
+        link: 'https://github.com/maaz2022/SupplierManagementSys/tree/master',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Full Camera Animation 3D',
+        description: 'Created a #D Camera Animation with the help of Three JS and Theater Js go and check it out at',
+        link: 'https://github.com/maaz2022/MyCameraAnimation',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: '3D Model Animations',
+        description: 'Designed and built 3D model animations with the help of React Three Fiber and Three Js',
+        link: 'https://github.com/maaz2022/RobotModel',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Full Next Rest API',
+        description: 'Creatd a full next Api which handle all the CRUD operations and much more',
+        link: 'https://github.com/maaz2022/next-rest-api',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Google Drive Clone',
+        description: 'Developed a web application for storing the documents like Google Drive',
+        link: 'https://github.com/maaz2022/my-drive',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'Console Based VCS',
+        description: 'Built a Version control system in which you can perform all basic operations as you perform on GitHub',
+        link: 'https://github.com/maaz2022/VCS',
     }
 ];

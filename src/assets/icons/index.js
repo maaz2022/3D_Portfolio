@@ -27,6 +27,20 @@ import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import chash from './chash.svg'
+import java from './java.svg'
+import microsoftsqlserver from './microsoftsqlserver.svg'
+import c from './c.svg'
+import mysql from './mysql.svg'
+import python from './python.svg'
+import threejs from './threejs.svg'
+import upwork from './upwork.svg'
+import s from './s.svg'
+import b from './b.svg'
+
+
+
+
+
 export {
     css,
     express,
@@ -56,5 +70,14 @@ export {
     contact,
     soundon,
     soundoff,
-    chash
+    chash,
+    java,
+    microsoftsqlserver,
+    c,
+    mysql,
+    python,
+    threejs,
+    upwork,
+    s,
+    b
 }
